@@ -1,4 +1,6 @@
 CreativityNow::Application.routes.draw do
+  resources :recipes
+
   get "home/index"
 
   # The priority is based upon order of creation:

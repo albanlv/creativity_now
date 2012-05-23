@@ -1,0 +1,40 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @recipe.title %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%= @recipe.description %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @recipe.content %>
+</p>
+
+<p>
+  <b>Contentfull:</b>
+  <%= @recipe.contentfull %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @recipe.author %>
+</p>
+
+<p>
+  <b>Tags:</b>
+  <%= @recipe.tags %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%= @recipe.price %>
+</p>
+
+
+<%= link_to 'Edit', edit_recipe_path(@recipe) %> |
+<%= link_to 'Back', recipes_path %>
